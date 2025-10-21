@@ -6,7 +6,7 @@ function Header() {
     return (
 
         <header className="flex items-center justify-between whitespace-nowrap border-b border-black/10 dark:border-white/10 md:px-10 lg:px-20 xl:px-40 py-4">
-            <div className="flex items-center gap-3 text-gray-900 dark:text-white w-[80px]">
+            <div className="logo flex items-center gap-3 text-gray-900 dark:text-white w-[80px]">
                 <h1>
                     <img src="/logo-mmaj.png" alt="Cocinas Integrales MMAJ" />
                 </h1>

@@ -17,3 +17,10 @@
 }
 
 @variant dark (&);
+
+
+@media (max-width: 767px) {
+  .logo {
+    margin: 0 auto;
+  }
+}
