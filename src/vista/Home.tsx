@@ -3,7 +3,7 @@ function Home() {
         <main className="flex-1">
             <div className="px-4 md:px-10 lg:px-20 xl:px-40 py-10 md:py-15">
                 <div className="mx-auto max-w-8xl">
-                    <div className="relative min-h-[600px] w-full rounded-xl overflow-hidden flex flex-col items-start justify-end p-8 md:p-12 bg-cover bg-center" style={{ backgroundImage: 'linear-gradient(to top, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 100%), url("/hero.png")' }} >
+                    <div className="relative min-h-[600px] w-full rounded-xl overflow-hidden flex flex-col items-start justify-end p-8 md:p-12 bg-cover bg-center" style={{ backgroundImage: 'linear-gradient(to top, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 100%), url("/hero.jpg")' }} >
                         <div className="max-w-xl text-white space-y-4">
                             <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Transformando tus espacios</h1>
                             <p className="text-base md:text-lg text-white/90">
@@ -26,14 +26,14 @@ function Home() {
                                 </div>
                             </div>
                             <div className="flex flex-col gap-4 group">
-                                <div className="w-full aspect-[4/3] bg-cover bg-center rounded-lg overflow-hidden" style={{ backgroundImage: 'url("/closet-1.png")' }}></div>
+                                <div className="w-full aspect-[4/3] bg-cover bg-center rounded-lg overflow-hidden" style={{ backgroundImage: 'url("/closet-1.jpg")' }}></div>
                                 <div>
                                     <h3 className="text-lg font-bold text-gray-900 dark:text-white">Sistemas de Closets a Medida</h3>
                                     <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">Maximiza el espacio y la organización con nuestras soluciones de closets a medida.</p>
                                 </div>
                             </div>
                             <div className="flex flex-col gap-4 group">
-                                <div className="w-full aspect-[4/3] bg-cover bg-center rounded-lg overflow-hidden" style={{ backgroundImage: 'url("/bano-1.png")' }}></div>
+                                <div className="w-full aspect-[4/3] bg-cover bg-center rounded-lg overflow-hidden" style={{ backgroundImage: 'url("/bano-1.jpg")' }}></div>
                                 <div>
                                     <h3 className="text-lg font-bold text-gray-900 dark:text-white">Muebles de Baño Elegantes</h3>
                                     <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">Transforma tu baño en un refugio spa con nuestro mobiliario de lujo.</p>
